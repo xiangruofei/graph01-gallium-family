@@ -1,0 +1,32 @@
+### 操作系统产生的垃圾文件 ###
+.DS_Store
+Thumbs.db
+desktop.ini
+
+### 编辑器  / IDE 的本地配置 ###
+.vscode/
+.idea/
+*.swp
+
+### Python ###
+__pycache__/
+*.py[cod]          
+.venv/
+venv/
+.ipynb_checkpoints/
+
+### Node.js ###
+node_modules/
+dist/
+npm-debug.log*
+
+### 密钥与隐私，绝对不能上传 ###
+.env
+.env.local
+*.key
+
+### 办公软件临时文件（写论文、写书的重点）###
+~$*.docx
+~$*.xlsx
+~$*.pptx
+*.tmp
